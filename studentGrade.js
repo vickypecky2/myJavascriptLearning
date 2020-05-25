@@ -30,28 +30,6 @@
 }
     gradeSystem(studentGrade);
 
-// ********************************factorial calculation*************//
-function factorial(n) {
-    if (n > 0 && n <= 1) {
-        return 1;
-    }
-    else {
-        return n*factorial(n-1);
-    }
-}
-
-//***********************************repeat number from 1-100 */
-// using while loop
-while (num < 100) {
-    let num =+ 1;
-    console.log(num);
-}
-
-// using for loop
-for (let num = 0; num <= 100; num++) {
-    // const element = array[num];
-    console.log(num);
-}
 
 
 
